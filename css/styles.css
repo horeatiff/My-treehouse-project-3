@@ -68,18 +68,14 @@ h1 {
 }
 
 .contact {
-  /*flex properties*/
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-
   /*decoration*/
   margin: 0 auto;
   width: 100%;
   border: none;
 }
 
-.fields {
+.fields,
+.fields_1 {
   /*flex properties*/
   display: flex;
   flex-direction: column;
@@ -238,7 +234,8 @@ input[type="submit"] {
     padding-right: 0;
   }
 
-  .fields {
+  .fields,
+  .fields_1 {
     /*grid properties*/
     display: inline-grid;
     grid-template-columns: 150px auto;
